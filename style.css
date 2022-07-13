@@ -43,6 +43,20 @@ button {
   margin-right: 7px;
 }
 
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
 footer {
   display: flex;
   background-color: rgb(71, 71, 71);
