@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <link rel= "stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Trybewarts</title>
 </head>
+
 <body>
   <header class="header">
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
@@ -19,34 +21,48 @@
   </header>
   <main>
     <form id='evaluation-form'>
-<section id="personal-data">
-  <label>
-    Nome
-    <input type="text" id="input-name" placeholder="Nome">
-  </label>
-  <label>
-    Sobrenome
-    <input type="text" id="input-lastname" placeholder="Sobrenome">
-  </label>
-</section>
-<section id="personal-email">
-  <label>
-    E-mail
-    <input type="email" id="input-email" placeholder="Email">
-  </label>
-  <label>
-    Casa
-    <select id="house">
-    <option value="Gitnória" text="Gitnória" id="gitnoria-house">Gitnória</option>
-    <option value="Reactpuff" text="Reactpuff" id="reactpuff-house">Reactpuff</option>
-    <option value="Corvinode" text="Corvinode" id="corvinode-house">Corvinode</option>
-    <option value="Pytherina" text="Pytherina" id="pytherina-house">Pytherina</option>
-  </label>
-    </select>
-  
-</section>
-
+      <section id="personal-data">
+        <label>
+          Nome
+          <input type="text" id="input-name" placeholder="Nome">
+        </label>
+        <label>
+          Sobrenome
+          <input type="text" id="input-lastname" placeholder="Sobrenome">
+        </label>
+      </section>
+      <section id="personal-email">
+        <label>
+          E-mail
+          <input type="email" id="input-email" placeholder="Email">
+        </label>
+        <label>
+          Casa
+          <select id="house">
+            <option value="Gitnória" text="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" text="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" text="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" text="Pytherina" id="pytherina-house">Pytherina</option>
+        </label>
+        </select>
+      </section>
     </form>
+
+    <!-- requisito 14 - cria um campo de avaliacao -->
+    <section class="avaliacao">
+      <label id="label-rate">Como você avalia a Trybewarts?</label>
+      <input type="radio" name="rate">1
+      <input type="radio" name="rate">2
+      <input type="radio" name="rate">3
+      <input type="radio" name="rate">4
+      <input type="radio" name="rate">5
+      <input type="radio" name="rate">6
+      <input type="radio" name="rate">7
+      <input type="radio" name="rate">8
+      <input type="radio" name="rate">9
+      <input type="radio" name="rate">10
+    </section>
+
     <div>
       <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
     </div>
@@ -56,4 +72,4 @@
 <footer>
   Direitos reservados à Trybewarts©
 </footer>
-</html> 
+</html>
