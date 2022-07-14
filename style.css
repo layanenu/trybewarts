@@ -109,6 +109,16 @@ h1 {
   border-radius: 5px;
 }
 
+.family-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-radio {
+  display: flex;
+  flex-direction: column;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
