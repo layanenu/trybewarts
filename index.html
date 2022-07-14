@@ -45,9 +45,26 @@
             <option value="Reactpuff" text="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" text="Corvinode" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" text="Pytherina" id="pytherina-house">Pytherina</option>
-        </label>
-        </select>
+          </select>
+          </label>
+        <section class="family-label">
+          <label id="label-family">Qual sua família?</label>
       </section>
+      <section class="family-radio">
+        <div>
+          <input type="radio" name="family" value="Frontend">
+          Famĺia Frontend
+        </div>
+        <div>
+          <input type="radio" name="family" value="Backend">
+          Famĺia Backend
+        </div>
+        <div>
+          <input type="radio" name="family" value="FullStack">
+          Famĺia FullStack
+        </div>
+         </section>
+        
       <section class="avaliacao">
         <label id="label-rate">Como você avalia a Trybewarts?</label>
         <input type="radio" name="rate">1
@@ -71,7 +88,7 @@
       </section>
       <button type="submit" id="submit-btn">Enviar</button>
     </form>
-    <div>
+    <div class="logo">
       <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
     </div>
   </main>
