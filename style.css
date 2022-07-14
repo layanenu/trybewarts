@@ -53,6 +53,7 @@ main {
   padding-bottom: 20px;
   background-color: rgb(228, 226, 226);
   height: 87.8%;
+  justify-content: space-evenly;
 }
 
 h1 {
