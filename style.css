@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body , html {
   height: 100%;
-  
 }
 
 header {
@@ -55,13 +54,10 @@ main {
   padding-bottom: 20px;
   background-color: rgb(228, 226, 226);
   height: 87.8%;
-  
 }
 
 h1 {
   margin-bottom: 20px;
- 
-  
 }
 
 #evaluation-form {
@@ -72,7 +68,6 @@ h1 {
   align-items: center;
   gap: 1.5em;
   padding: 0 6em;
- 
 }
 
 #personal-data {
@@ -81,7 +76,8 @@ h1 {
   flex-direction: row;
   margin-bottom: 10px;
 }
-#personal-email{
+
+#personal-email {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -133,6 +129,10 @@ h1 {
 #trybewarts-forms-logo {
   height: 500px;
   object-fit: contain;
+}
+
+.content {
+  display: flex;
 }
 
 footer {
