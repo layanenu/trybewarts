@@ -125,9 +125,14 @@ h1 {
   flex-direction: column;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
-  object-fit: contain;
 }
 
 .content {
