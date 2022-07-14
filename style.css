@@ -45,7 +45,6 @@ button {
 
 main {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -54,9 +53,6 @@ main {
 
 h1 {
   margin-bottom: 20px;
-=======
-
->>>>>>> ca8f35e (requisito 12)
 }
 
 #evaluation-form {
