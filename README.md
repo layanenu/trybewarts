@@ -1,13 +1,35 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<strong>Trybewarts 🧙 </strong>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<strong>:wavy_dash: Sobre</strong>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Neste projeto foi desenvolvido uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. 
+
+O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico! 
+
+Esse projeto foi construído por mim e pela Fabiana.
+
+<details>
+  <summary><strong> Stacks </strong></summary><br />
+
+  * HTML
+  * CSS
+  * JavaScript
+
+</details>
+
+<strong>:wavy_dash: Layout</strong>
+
+<strong>:wavy_dash: Rodando na sua máquina</strong>
+
+Clone o repositório:
+```bash
+git clone git@github.com:layanenu/trybewarts.git
+```
+
+Entre no diretório trybewarts:
+```bash
+cd trybewarts
+```
+
+Inicialize a aplicação através da extensão Live Server no arquivo index.html
+
