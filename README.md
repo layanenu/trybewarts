@@ -19,6 +19,8 @@ Esse projeto foi construído por mim e pela Fabiana.
 
 <strong>:wavy_dash: Layout</strong>
 
+https://user-images.githubusercontent.com/99842422/234542852-195bfdd2-9557-4234-a51c-f8fc90de937b.mov
+
 <strong>:wavy_dash: Rodando na sua máquina</strong>
 
 Clone o repositório:
