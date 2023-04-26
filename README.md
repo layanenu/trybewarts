@@ -6,8 +6,6 @@ Neste projeto foi desenvolvido uma página de formulário da Escola de Magia de 
 
 O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico! 
 
-Esse projeto foi construído por mim e pela Fabiana.
-
 <details>
   <summary><strong> Stacks </strong></summary><br />
 
